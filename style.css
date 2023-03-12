@@ -50,6 +50,7 @@ body{
     margin: 0;
     font-size:13px;
     font-weight: 600;
+    opacity: 70%;
 }
 .result h3{
     margin:20px 0 8px 0 ;
@@ -58,6 +59,10 @@ body{
 .result p{
     margin: 0 0 20px 0;
     /* font-size: .9em; */
+}
+.text-result{
+    text-align: center;
+    width: 280px;
 }
 
 .summary{
@@ -133,7 +138,9 @@ body{
 .reaction-score ,.memory-score,.verbal-score,.visual-score{
     padding-right: 10px;
 }
-
+.light-score{
+    opacity: 50%;
+}
 
 .continue{
     height: 55px;
@@ -171,6 +178,10 @@ body{
     .result-score{
         height: 150px;
         width: 150px;
+    }
+    .text-result{
+        width: 220px;
+        text-align: center;
     }
     .summary-score{
         width: 250px;
